@@ -10,9 +10,6 @@
 [submodule "base-lang"]
 	path = base-lang
 	url = git@github.com:sugar-lang/base-lang.git
-[submodule "editor-spoofax"]
-	path = editor-spoofax
-	url = git@github.com:sugar-lang/editor-spoofax.git
 [submodule "stdlib"]
 	path = stdlib
 	url = git@github.com:sugar-lang/stdlib.git
@@ -34,3 +31,6 @@
 [submodule "web"]
 	path = web
 	url = git@github.com:sugar-lang/web.git
+[submodule "editor"]
+	path = editor
+	url = git@github.com:sugar-lang/editor.git
