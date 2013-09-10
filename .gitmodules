@@ -31,3 +31,6 @@
 [submodule "languages/javascript"]
 	path = languages/javascript
 	url = git@github.com:sugar-lang/lang-javascript.git
+[submodule "web"]
+	path = web
+	url = git@github.com:sugar-lang/web.git
