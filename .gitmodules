@@ -28,3 +28,6 @@
 [submodule "languages/fomega"]
 	path = languages/fomega
 	url = git@github.com:sugar-lang/lang-fomega.git
+[submodule "languages/javascript"]
+	path = languages/javascript
+	url = git@github.com:sugar-lang/lang-javascript.git
