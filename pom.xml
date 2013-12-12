@@ -10,6 +10,7 @@
 		<groupId>org.sugarj</groupId>
 		<artifactId>org.sugarj.maven-config</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>deployment/maven-config</relativePath>
 	</parent>
 
 	<packaging>pom</packaging>
@@ -22,5 +23,6 @@
           <module>base-lang</module>
           <module>languages/java</module>
           <module>languages/haskell</module>
+          <module>languages/prolog</module>
         </modules>
 </project>
