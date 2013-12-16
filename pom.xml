@@ -16,6 +16,7 @@
 	<packaging>pom</packaging>
 
         <modules>
+          <module>deployment/target-platform</module>
           <module>common</module>
           <module>stdlib</module>
           <module>compiler</module>
