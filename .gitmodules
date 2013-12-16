@@ -1,42 +1,42 @@
 [submodule "common"]
 	path = common
-	url = git@github.com:sugar-lang/common.git
+	url = https://github.com/sugar-lang/common.git
 [submodule "compiler"]
 	path = compiler
-	url = git@github.com:sugar-lang/compiler.git
+	url = https://github.com/sugar-lang/compiler.git
 [submodule "deployment"]
 	path = deployment
-	url = git@github.com:sugar-lang/deployment.git
+	url = https://github.com/sugar-lang/deployment.git
 [submodule "base-lang"]
 	path = base-lang
-	url = git@github.com:sugar-lang/base-lang.git
+	url = https://github.com/sugar-lang/base-lang.git
 [submodule "stdlib"]
 	path = stdlib
-	url = git@github.com:sugar-lang/stdlib.git
+	url = https://github.com/sugar-lang/stdlib.git
 [submodule "languages/java"]
 	path = languages/java
-	url = git@github.com:sugar-lang/lang-java.git
+	url = https://github.com/sugar-lang/lang-java.git
 [submodule "languages/haskell"]
 	path = languages/haskell
-	url = git@github.com:sugar-lang/lang-haskell.git
+	url = https://github.com/sugar-lang/lang-haskell.git
 [submodule "languages/prolog"]
 	path = languages/prolog
-	url = git@github.com:sugar-lang/lang-prolog.git
+	url = https://github.com/sugar-lang/lang-prolog.git
 [submodule "languages/fomega"]
 	path = languages/fomega
-	url = git@github.com:sugar-lang/lang-fomega.git
+	url = https://github.com/sugar-lang/lang-fomega.git
 [submodule "languages/javascript"]
 	path = languages/javascript
-	url = git@github.com:sugar-lang/lang-javascript.git
+	url = https://github.com/sugar-lang/lang-javascript.git
 [submodule "web"]
 	path = web
-	url = git@github.com:sugar-lang/web.git
+	url = https://github.com/sugar-lang/web.git
 [submodule "editor"]
 	path = editor
-	url = git@github.com:sugar-lang/editor.git
+	url = https://github.com/sugar-lang/editor.git
 [submodule "case-studies"]
 	path = case-studies
-	url = git@github.com:sugar-lang/case-studies.git
+	url = https://github.com/sugar-lang/case-studies.git
 [submodule "languages/scala"]
 	path = languages/scala
-	url = git@github.com:sugar-lang/lang-scala.git
+	url = https://github.com/sugar-lang/lang-scala.git
