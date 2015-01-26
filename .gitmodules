@@ -40,3 +40,6 @@
 [submodule "languages/scala"]
 	path = languages/scala
 	url = https://github.com/sugar-lang/lang-scala.git
+[submodule "cleardep"]
+	path = cleardep
+	url = https://github.com/sugar-lang/cleardep
