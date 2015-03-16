@@ -43,3 +43,6 @@
 [submodule "cleardep"]
 	path = cleardep
 	url = https://github.com/sugar-lang/cleardep
+[submodule "cleardep.test"]
+	path = cleardep.test
+	url = ./cleardep.test
