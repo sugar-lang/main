@@ -8,7 +8,7 @@
 
 	<parent>
 		<groupId>org.sugarj</groupId>
-		<artifactId>org.sugarj.maven-config</artifactId>
+		<artifactId>maven-config</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 		<relativePath>maven-config/maven-config</relativePath>
 	</parent>
@@ -16,6 +16,41 @@
 	<packaging>pom</packaging>
 
         <modules>
-          <module>maven-config/maven-config</module>
+          <module>deployment/target-platform</module>
+	  <module>cleardep</module>
+				  <!-- <module>cleardep.test</module> -->
+          <module>common</module>
+          <module>stdlib</module>
+          <module>compiler</module>
+          <module>base-lang</module>
+          <module>editor</module>
+
+          <module>languages/java</module>
+          <module>languages/haskell</module>
+          <module>languages/prolog</module>
+          <module>languages/fomega</module>
+          <module>languages/javascript/language-libraries/javascript</module>
+          <module>languages/scala</module>
+          <!-- <module>languages/dryad/languages/dryad</module> -->
+
+          <module>deployment/feature-base</module>
+          <module>deployment/feature-editor</module>
+          <module>deployment/feature-java</module>
+          <module>deployment/feature-haskell</module>
+          <module>deployment/feature-prolog</module>
+          <module>deployment/feature-fomega</module>
+          <module>deployment/feature-javascript</module>
+          <module>deployment/feature-scala</module>
+          <!-- <module>deployment/feature-dryad</module> -->
+
+          <module>deployment/update-site</module>
+		  
+          <module>test-java</module>
+	  <module>case-studies/pairs</module>
+	  <module>case-studies/closures</module>
+	  <module>case-studies/xml</module>
+	  <module>case-studies/questionnaire-language</module>
+	  <module>case-studies/string-interpolation</module>
+	  <module>case-studies/case-classes</module>
         </modules>
 </project>
