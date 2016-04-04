@@ -46,3 +46,6 @@
 [submodule "cleardep.test"]
 	path = cleardep.test
 	url = ./cleardep.test
+[submodule "maven-config"]
+	path = maven-config
+	url = git@github.com:sugar-lang/maven-config.git
