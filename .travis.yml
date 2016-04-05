@@ -8,8 +8,8 @@ script: |
   echo "Keeping worker alive for 10min..."
   sleep 10m
   
-cache:
-  directories:
-    - '$HOME/.m2/repository'
+# cache:
+#   directories:
+#     - '$HOME/.m2/repository'
 
 jdk: oraclejdk7
