@@ -46,3 +46,6 @@
 [submodule "maven-config"]
 	path = maven-config
 	url = https://github.com/sugar-lang/maven-config.git
+[submodule "test-java"]
+	path = test-java
+	url = https://github.com/sugar-lang/test-java.git
