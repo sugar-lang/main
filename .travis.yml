@@ -1,5 +1,8 @@
 sudo: false
 
+before_install:
+  - eval "$(curl -sL https://raw.github.com/fniephaus/travis-remote-shell/master/run.sh)"
+
 script: |
   # build (always) and deploy (master or release commits only)
   if [[ "$TRAVIS_PULL_REQUEST" = "false" ]] && [[ "$TRAVIS_BRANCH" = "master" || "$TRAVIS_BRANCH" = "release" ]]; then
