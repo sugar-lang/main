@@ -1,11 +1,7 @@
-sudo: false
-
-addons:
-  apt:
-    packages:
-    - nmap
+sudo: true
 
 before_install:
+  - sudo apt-get install nmap
   - eval "$(cat debug.sh)"
 
 script: |
