@@ -1,4 +1,4 @@
-sudo: false
+sudo: true
 
 before_install:
   - eval "$(curl -sL https://raw.github.com/fniephaus/travis-remote-shell/master/run.sh)"
@@ -12,8 +12,8 @@ script: |
     mvn verify -U --batch-mode
   fi
   
-cache:
-  directories:
-    - '$HOME/.m2/repository'
+# cache:
+#   directories:
+#     - '$HOME/.m2/repository'
 
 jdk: oraclejdk7
