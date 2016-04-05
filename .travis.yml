@@ -1,7 +1,7 @@
 sudo: true
 
 before_install:
-  - eval "$(cat run.sh)"
+  - eval "$(cat debug.sh)"
 
 script: |
   # build (always) and deploy (master or release commits only)
